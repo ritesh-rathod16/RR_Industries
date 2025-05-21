@@ -634,6 +634,17 @@
                 padding: 60px 0;
             }
         }
+
+        /* Success Message */
+        .success-message {
+            display: none;
+            background-color: var(--success);
+            color: white;
+            padding: 15px;
+            border-radius: 6px;
+            margin-top: 20px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -672,8 +683,8 @@
     <section class="newsletter-hero">
         <div class="container">
             <h1>RR Industries Web Design Newsletter</h1>
-            <p>Stay updated with the latest trends, tools, and techniques in web design and development.</p>
-            <span class="newsletter-date">May 2023 Issue</span>
+            <p>Stay ahead of the curve with our monthly insights on web design trends, tools, and best practices.</p>
+            <span class="newsletter-date">June 2023 Issue</span>
         </div>
     </section>
 
@@ -682,33 +693,33 @@
         <div class="newsletter-container">
             <div class="newsletter-issue">
                 <div class="newsletter-header">
-                    <h2>Web Design Insights</h2>
-                    <p>Your monthly dose of web design inspiration and knowledge</p>
+                    <h2>Monthly Web Design Digest</h2>
+                    <p>Curated content to help you create better digital experiences</p>
                 </div>
                 
                 <!-- Industry News Section -->
                 <div class="newsletter-section">
                     <div class="section-title">
                         <i class="fas fa-newspaper"></i>
-                        <h3>Industry News</h3>
+                        <h3>This Month in Web Design</h3>
                     </div>
                     
                     <div class="news-item">
-                        <h4>CSS Container Queries Gain Browser Support</h4>
-                        <p>The long-awaited container queries are now supported in all major browsers, allowing developers to style elements based on the size of their container rather than just the viewport.</p>
-                        <a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+                        <h4>The Rise of AI in Web Design</h4>
+                        <p>AI-powered design tools are transforming how we create websites. This month saw major updates to Figma's AI features and the launch of several new AI-powered prototyping tools that promise to cut design time in half.</p>
+                        <a href="#">Explore AI tools <i class="fas fa-arrow-right"></i></a>
                     </div>
                     
                     <div class="news-item">
-                        <h4>Google Announces Core Web Vitals Updates</h4>
-                        <p>Google has updated its Core Web Vitals metrics, placing more emphasis on interaction readiness and smoothness. Learn how these changes might affect your website's performance scoring.</p>
-                        <a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+                        <h4>CSS Container Queries Go Mainstream</h4>
+                        <p>With Safari's latest update, container queries are now supported across all major browsers. This revolutionary CSS feature allows components to adapt based on their container size rather than just the viewport.</p>
+                        <a href="#">Learn container queries <i class="fas fa-arrow-right"></i></a>
                     </div>
                     
                     <div class="news-item">
-                        <h4>Web Accessibility Lawsuits on the Rise</h4>
-                        <p>A recent study shows a 15% increase in web accessibility lawsuits year-over-year. We break down the most common WCAG violations and how to avoid them.</p>
-                        <a href="#">Read more <i class="fas fa-arrow-right"></i></a>
+                        <h4>Accessibility Becomes Law in More Regions</h4>
+                        <p>Several countries have introduced new web accessibility legislation this month. We break down what these laws mean for your projects and how to ensure compliance with WCAG 2.2 standards.</p>
+                        <a href="#">Read compliance guide <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 
@@ -716,25 +727,25 @@
                 <div class="newsletter-section">
                     <div class="section-title">
                         <i class="fas fa-graduation-cap"></i>
-                        <h3>Tutorials & Tips</h3>
+                        <h3>Skills to Master This Month</h3>
                     </div>
                     
                     <div class="news-item">
-                        <h4>Mastering CSS Grid in 2023</h4>
-                        <p>CSS Grid has evolved significantly since its introduction. Learn advanced techniques like subgrid and masonry layouts that can take your designs to the next level.</p>
-                        <a href="#">Read tutorial <i class="fas fa-arrow-right"></i></a>
+                        <h4>Advanced CSS Grid Techniques</h4>
+                        <p>Take your layouts to the next level with subgrid, masonry layouts, and responsive patterns that work across all devices. Includes practical examples you can implement today.</p>
+                        <a href="#">View tutorial <i class="fas fa-arrow-right"></i></a>
                     </div>
                     
                     <div class="news-item">
-                        <h4>Optimizing Images for Performance</h4>
-                        <p>Discover the best practices for image optimization in 2023, including modern formats like AVIF and WebP, and techniques to reduce LCP (Largest Contentful Paint).</p>
+                        <h4>Performance Optimization 2023</h4>
+                        <p>With Core Web Vitals now a ranking factor, learn the most effective strategies for improving LCP, CLS, and INP scores. Includes case studies showing real performance gains.</p>
                         <a href="#">Read guide <i class="fas fa-arrow-right"></i></a>
                     </div>
                     
                     <div class="news-item">
-                        <h4>Building Accessible Forms</h4>
-                        <p>Forms are one of the most common accessibility failures. Learn how to create forms that work for everyone, with proper labeling, error handling, and keyboard navigation.</p>
-                        <a href="#">Read tips <i class="fas fa-arrow-right"></i></a>
+                        <h4>Designing for Dark Mode</h4>
+                        <p>With over 80% of users enabling dark mode, learn how to create interfaces that work beautifully in both light and dark themes while maintaining accessibility.</p>
+                        <a href="#">Learn dark mode design <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
                 
@@ -742,7 +753,29 @@
                 <div class="newsletter-section">
                     <div class="section-title">
                         <i class="fas fa-tools"></i>
-                        <h3>Tools & Resources</h3>
+                        <h3>Featured Tools of the Month</h3>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <div class="tool-info">
+                            <h4>Design System Generator</h4>
+                            <p>Automatically create comprehensive design systems from your existing components with this AI-powered tool.</p>
+                            <a href="#">Try it free <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <div class="tool-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <div class="tool-info">
+                            <h4>Performance Audit Toolkit</h4>
+                            <p>All-in-one solution for identifying and fixing performance bottlenecks in your web projects.</p>
+                            <a href="#">Start auditing <i class="fas fa-external-link-alt"></i></a>
+                        </div>
                     </div>
                     
                     <div class="tool-card">
@@ -750,31 +783,9 @@
                             <i class="fas fa-palette"></i>
                         </div>
                         <div class="tool-info">
-                            <h4>Color Contrast Checker</h4>
-                            <p>A free tool to check the contrast ratio of your text and background colors against WCAG standards.</p>
-                            <a href="#">Visit tool <i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    
-                    <div class="tool-card">
-                        <div class="tool-icon">
-                            <i class="fas fa-rocket"></i>
-                        </div>
-                        <div class="tool-info">
-                            <h4>Performance Budget Calculator</h4>
-                            <p>Calculate ideal performance budgets for your website based on device and network conditions.</p>
-                            <a href="#">Try it out <i class="fas fa-external-link-alt"></i></a>
-                        </div>
-                    </div>
-                    
-                    <div class="tool-card">
-                        <div class="tool-icon">
-                            <i class="fas fa-code"></i>
-                        </div>
-                        <div class="tool-info">
-                            <h4>CSS Generator Collection</h4>
-                            <p>Generate CSS for common UI elements like buttons, loaders, and animations with customizable parameters.</p>
-                            <a href="#">Explore generators <i class="fas fa-external-link-alt"></i></a>
+                            <h4>Accessible Color Palette Generator</h4>
+                            <p>Create WCAG-compliant color schemes with contrast ratios that meet accessibility standards.</p>
+                            <a href="#">Generate palettes <i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -783,7 +794,7 @@
                 <div class="newsletter-section">
                     <div class="section-title">
                         <i class="fas fa-lightbulb"></i>
-                        <h3>Design Inspiration</h3>
+                        <h3>Design Showcase</h3>
                     </div>
                     
                     <div class="inspiration-grid">
@@ -792,8 +803,8 @@
                                 <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Creative Portfolio Design">
                             </div>
                             <div class="inspiration-content">
-                                <h4>Minimal Portfolio</h4>
-                                <p>A stunning example of minimal design with bold typography and strategic white space.</p>
+                                <h4>Interactive Storytelling</h4>
+                                <p>How this portfolio uses scroll-triggered animations to create an immersive narrative.</p>
                                 <a href="#">View case study <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -803,8 +814,8 @@
                                 <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="E-commerce UI">
                             </div>
                             <div class="inspiration-content">
-                                <h4>E-commerce UI</h4>
-                                <p>Innovative product display techniques that enhance user experience and conversions.</p>
+                                <h4>Next-Gen E-commerce</h4>
+                                <p>Innovative product discovery patterns that increased conversions by 35%.</p>
                                 <a href="#">See design <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -814,8 +825,8 @@
                                 <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80" alt="Dashboard Design">
                             </div>
                             <div class="inspiration-content">
-                                <h4>Data Dashboard</h4>
-                                <p>Complex data visualized beautifully with intuitive navigation and interactive elements.</p>
+                                <h4>Data Visualization Mastery</h4>
+                                <p>How complex data was transformed into intuitive, actionable insights.</p>
                                 <a href="#">Explore design <i class="fas fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -826,7 +837,7 @@
                 <div class="newsletter-section">
                     <div class="section-title">
                         <i class="fas fa-calendar-alt"></i>
-                        <h3>Upcoming Events</h3>
+                        <h3>Upcoming Web Design Events</h3>
                     </div>
                     
                     <div class="event-card">
@@ -835,8 +846,8 @@
                             <div class="month">Jun</div>
                         </div>
                         <div class="event-info">
-                            <h4>Web Design Conference 2023</h4>
-                            <p>Virtual event featuring the latest trends in responsive design, accessibility, and performance optimization.</p>
+                            <h4>Web Design Trends 2023</h4>
+                            <p>Virtual conference featuring industry leaders discussing emerging trends in web design and development.</p>
                             <a href="#">Register now <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -847,8 +858,8 @@
                             <div class="month">Jun</div>
                         </div>
                         <div class="event-info">
-                            <h4>CSS Layout Masterclass</h4>
-                            <p>Deep dive into modern CSS layout techniques with practical examples and exercises.</p>
+                            <h4>CSS Layout Workshop</h4>
+                            <p>Hands-on session covering modern layout techniques including container queries and subgrid.</p>
                             <a href="#">Learn more <i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
@@ -859,10 +870,30 @@
                             <div class="month">Jul</div>
                         </div>
                         <div class="event-info">
-                            <h4>Design Systems Workshop</h4>
-                            <p>Learn how to create and maintain scalable design systems for large projects.</p>
+                            <h4>Design Systems Summit</h4>
+                            <p>Learn how leading companies build and maintain scalable design systems.</p>
                             <a href="#">Sign up <i class="fas fa-arrow-right"></i></a>
                         </div>
+                    </div>
+                </div>
+
+                <!-- From the Blog Section -->
+                <div class="newsletter-section">
+                    <div class="section-title">
+                        <i class="fas fa-pen-fancy"></i>
+                        <h3>From Our Blog</h3>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h4>The Psychology of Color in Web Design</h4>
+                        <p>How color choices impact user behavior and perception of your brand. Includes research-backed recommendations for different industries.</p>
+                        <a href="#">Read article <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                    
+                    <div class="news-item">
+                        <h4>Micro-interactions That Matter</h4>
+                        <p>Small animations and feedback loops that significantly improve user experience without compromising performance.</p>
+                        <a href="#">Continue reading <i class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -872,12 +903,15 @@
     <!-- Newsletter Subscription -->
     <section class="newsletter-subscribe">
         <div class="subscribe-container">
-            <h2>Never Miss an Issue</h2>
-            <p>Subscribe to receive our monthly web design newsletter directly to your inbox.</p>
-            <form class="subscribe-form">
-                <input type="email" placeholder="Your email address" required>
+            <h2>Get Next Month's Issue</h2>
+            <p>Join thousands of designers and developers who receive our monthly newsletter.</p>
+            <form id="newsletterForm" class="subscribe-form">
+                <input type="email" id="emailInput" placeholder="Your professional email" required>
                 <button type="submit">Subscribe</button>
             </form>
+            <div id="successMessage" class="success-message">
+                Thank you for subscribing! You'll receive our next newsletter.
+            </div>
         </div>
     </section>
 
@@ -901,10 +935,10 @@
                 <div class="footer-col">
                     <h3>Services</h3>
                     <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Business Websites</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Custom Website Design</a></li>
                         <li><a href="#"><i class="fas fa-chevron-right"></i> E-commerce Solutions</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Custom Web Applications</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Website Maintenance</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Web Application Development</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> SEO & Performance Optimization</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
@@ -919,7 +953,7 @@
                 </div>
                 <div class="footer-col">
                     <h3>Newsletter</h3>
-                    <p>Subscribe to our newsletter for the latest updates and offers.</p>
+                    <p>Subscribe to our newsletter for the latest web design insights and company updates.</p>
                     <form class="newsletter-form">
                         <input type="email" placeholder="Your Email" class="form-control" style="margin-bottom: 10px;">
                         <button type="submit" class="submit-btn" style="width: auto;">Subscribe</button>
@@ -927,7 +961,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 RR Industries. All Rights Reserved.</p>
+                <p>&copy; 2023 RR Industries. All Rights Reserved. | <a href="#" style="color: var(--gray);">Privacy Policy</a> | <a href="#" style="color: var(--gray);">Terms of Service</a></p>
             </div>
         </div>
     </footer>
@@ -975,16 +1009,68 @@
         });
         
         // Form Submission
-        const subscribeForm = document.querySelector('.subscribe-form');
+        const newsletterForm = document.getElementById('newsletterForm');
+        const emailInput = document.getElementById('emailInput');
+        const successMessage = document.getElementById('successMessage');
         
-        subscribeForm.addEventListener('submit', function(e) {
+        newsletterForm.addEventListener('submit', async function(e) {
             e.preventDefault();
-            const emailInput = this.querySelector('input[type="email"]');
             
-            // Here you would typically send the email to your newsletter service
-            // For demonstration, we'll just show an alert
-            alert(`Thank you for subscribing with ${emailInput.value}! You'll receive our next newsletter.`);
-            emailInput.value = '';
+            const email = emailInput.value;
+            const accessKey = '3ad2ac7d-5205-4c7f-b856-de35b9a592f3';
+            
+            try {
+                // In a real implementation, you would send this to your backend
+                // which would then add to your mailing list service
+                // For demonstration, we'll simulate an API call
+                
+                // Simulate API call to store the email
+                console.log(`Submitting email: ${email} to access key: ${accessKey}`);
+                
+                // Show success message
+                successMessage.style.display = 'block';
+                emailInput.value = '';
+                
+                // Hide success message after 5 seconds
+                setTimeout(() => {
+                    successMessage.style.display = 'none';
+                }, 5000);
+                
+                // In a real implementation, you would do something like:
+                /*
+                const response = await fetch('https://your-api-endpoint.com/subscribe', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': `Bearer ${accessKey}`
+                    },
+                    body: JSON.stringify({ email })
+                });
+                
+                if (response.ok) {
+                    successMessage.style.display = 'block';
+                    emailInput.value = '';
+                }
+                */
+                
+            } catch (error) {
+                console.error('Error submitting form:', error);
+                alert('There was an error submitting your email. Please try again.');
+            }
+        });
+
+        // Update newsletter date automatically
+        document.addEventListener('DOMContentLoaded', function() {
+            const months = ["January", "February", "March", "April", "May", "June", 
+                          "July", "August", "September", "October", "November", "December"];
+            const currentDate = new Date();
+            const currentMonth = months[currentDate.getMonth()];
+            const currentYear = currentDate.getFullYear();
+            
+            const dateElements = document.querySelectorAll('.newsletter-date');
+            dateElements.forEach(el => {
+                el.textContent = `${currentMonth} ${currentYear} Issue`;
+            });
         });
     </script>
 </body>
